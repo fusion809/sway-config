@@ -44,7 +44,7 @@ bindsym $mod+6 [class="thunar"] focus
 bindsym F12 [class="Vlc"] focus
 
 # Take a screenshot
-bindsym Print --release exec swimport
+bindsym Print exec swimport
 
 # Launch 0 A.D.
 bindsym $mod+0 exec optirun-0ad
