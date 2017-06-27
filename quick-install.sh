@@ -31,6 +31,10 @@ if ! [[ -d $CFG/i3-configs ]]; then
     git clone https://github.com/fusion809/i3-configs $CFG/i3-configs
 fi
 
+pushd $CFG/i3-configs
+git checkout archlinux
+popd
+
 if ! [[ -d $CFG/sway-config ]]; then
     git clone https://github.com/fusion809/sway-config $CFG/sway-config
 fi
@@ -43,5 +47,10 @@ if ! [[ -d $HOME/.config/sway ]]; then
     mkdir -p $HOME/.config/sway
 fi
 
+if ! [[ -f /usr/local/bin/optirun-0ad ]]; then
+    cp $CFG/i3-configs/usr/local/bin/* $CFG/sway-config/usr/local/bin
+fi
+
 cp $CFG/i3-configs/.i3/i3status.py $HOME/.i3
 cp $CFG/sway-config/config $HOME/.config/sway
+sudo cp $CFG/sway-config/usr/local/bin/* /usr/local/bin
