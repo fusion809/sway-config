@@ -25,8 +25,8 @@ bindsym $mod+3 [class="pyrogenesis"] focus
 # Chromium
 # gentoo
 #bindsym End [class="Chromium-browser-chromium"] focus
-# Arch; Chromium
-bindsym Home [class="Chromium"] focus
+# Arch; Firefox
+bindsym Home [class="Firefox"] focus
 
 # OpenRA
 bindsym $mod+4 [class="mono-sgen"] focus
