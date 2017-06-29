@@ -11,7 +11,7 @@ set $mod Mod4
 font pango:Hack 9
 
 # Use Mouse+$mod to drag floating windows to their wanted position
-floating_modifier $mod
+#floating_modifier $mod
 
 # Default wallpaper (more resolutions are available in /usr/share/sway/)
 output * bg /usr/share/sway/Sway_Wallpaper_Blue_1920x1080.png fill
@@ -139,7 +139,7 @@ bindsym $mod+space focus mode_toggle
 bindsym $mod+a focus parent
 
 # focus the child container
-bindsym $mod1+d focus child
+bindsym $mod+d focus child
 
 # kill focused window
 bindsym $mod+q kill
@@ -173,8 +173,6 @@ bindsym $mod+Shift+0 move container to workspace 10
 
 # reload the configuration file
 bindsym $mod+Shift+c reload
-# restart sway inplace (preserves your layout/session, can be used to upgrade i3)
-bindsym $mod+Shift+r restart
 
 # resize window (you can also use the mouse for that)
 mode "resize" {
@@ -211,7 +209,9 @@ bar {
                 background #000000
                 statusline #ffffff
 
-                focused_workspace  #ff4500 #000000
-                inactive_workspace #888888 #000000
+
+# kill focused window
+                focused_workspace  #999999 #285fff #afafaf
+                inactive_workspace #999999 #111111 #afafaf
         }
 }
