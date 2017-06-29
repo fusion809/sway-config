@@ -14,7 +14,7 @@ font pango:Hack 9
 #floating_modifier $mod
 
 # Default wallpaper (more resolutions are available in /usr/share/sway/)
-output * bg /usr/share/sway/Sway_Wallpaper_Blue_1920x1080.png fill
+output * bg /usr/share/backgrounds/sway/Sway_Wallpaper_Blue_1920x1080.png fill
 
 ##################################################################################################
 ################################### Change to workspace with app #################################
@@ -211,7 +211,7 @@ bar {
 
 
 # kill focused window
-                focused_workspace  #999999 #285fff #afafaf
+                focused_workspace  #999999 #225577 #afafaf
                 inactive_workspace #999999 #111111 #afafaf
         }
 }
