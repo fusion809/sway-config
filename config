@@ -211,7 +211,7 @@ bar {
 
 
 # kill focused window
-                focused_workspace  #999999 #225577 #afafaf
-                inactive_workspace #999999 #111111 #afafaf
+                focused_workspace  #555555 #225577 #ffffff
+                inactive_workspace #555555 #111111 #ffffff
         }
 }
