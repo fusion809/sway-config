@@ -74,7 +74,7 @@ bindsym $mod+p exec pcmanfm
 bindsym $mod+t exec thunar
 
 # Open Firefox
-bindsym $mod+Shift+f exec firefox
+bindsym $mod+Shift+f exec firefox-nightly
 
 # Launch virt-manager
 bindsym $mod+Shift+m exec virt-manager
