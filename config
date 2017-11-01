@@ -52,8 +52,8 @@ bindsym $mod+0 exec optirun-0ad
 # Launch Chromium
 bindsym $mod+c exec chromium
 
-# start dmenu (a program launcher)
-bindsym $mod+d exec dmenu_run
+# start gmrun (a program launcher)
+bindsym $mod+d exec gmrun
 
 # Launch Google Chrome
 bindsym $mod+g exec google-chrome-stable
